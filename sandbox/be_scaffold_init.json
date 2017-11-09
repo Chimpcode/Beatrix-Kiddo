@@ -1,0 +1,19 @@
+{
+	"config": {
+		"build_mode": ["dev", "test", "prod"]
+	},
+	"app_name": "undefinedxD",
+	"models": [
+		{ "model1":	["fieldA(IntegerField[max_length=3])",
+					"fieldB(CharField[max_length=3,])", "fieldC(TextField[])", "fieldD(CharField[])"]},
+		{ "model2": 	["fieldA(number[max_length=3])", 
+					"fieldB(string)", "fieldC()", "fieldD"]}
+	],
+	"routes": [
+		"model1-[LIST]->{}",
+		"model2-[LIST]->{}",
+		"model3-[LIST]->{}",
+		"model2(fieldA -> model3(fieldA, fieldB))-[LIST]->{}",
+		"model4(fieldA -> model3(fieldA, fieldB))<-[POST]-{}"
+	]
+}

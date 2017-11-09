@@ -1,0 +1,12 @@
+{
+	"config": {
+		"build_mode": ["dev", "test", "prod"]
+	},
+	"app_name": "notetaking",
+	"models": [
+		{ "Notes":	["message(TextField[max_length=300])",
+					"time_created(DateTimeField[auto_now=True])"]},
+		{ "Users": 	["fullname(CharField[max_length=300])",
+					"nickname(CharField[max_length=300])"]}
+	]
+}

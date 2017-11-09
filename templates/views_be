@@ -1,0 +1,6 @@
+from api.models import {{models}}
+from rest_framework import viewsets
+from api.serializers import {{modelsSerializers}}
+
+
+{{view_classes}}
