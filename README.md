@@ -1,6 +1,6 @@
 # Beatrix Kiddo
 
-On almor every project that customers only want an "app", a "web" or a "webapp", then it makes you do the loop-task of developing again and again a backend service (an API) that coud serve to any device web or app ... or you simply copy/paste the past project and modify some parameters, but the code could'nt be so clean like it would by creating a new project.
+On almost every project that customers only want an "app", a "web" or a "webapp", then it makes you do the loop-task of developing again and again a backend service (an API) that coud serve to any device web or app ... or you simply copy/paste the past project and modify some parameters, but the code could'nt be so clean like it would by creating a new project.
 
 
 ## Mission
