@@ -33,7 +33,7 @@ By now only it works to produce Django projects, building API Rests in Django (w
 
 Currently the models values described in the json file sample as showed above is according [Django Models documentation]. Then it'll be changed to a more general rule to support several frameworks.
 
-[What's Next?]: https://github.com/anargu/Beatrix-Kiddo/README.md#
+[What's Next?]: https://github.com/anargu/Beatrix-Kiddo#whats-next
 [Django Models documentation]: https://docs.djangoproject.com/en/1.11/topics/db/models/#
 
 
