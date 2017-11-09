@@ -1,1 +1,1 @@
-## BEATRIX KIDDO
+## Beatrix Kiddo
