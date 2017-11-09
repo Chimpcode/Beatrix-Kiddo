@@ -13,7 +13,7 @@ The script works with an .json file as an input and it will be read all the fiel
 ### 1. Create your own json file
 ```json
 {
-    "app_name": "notetaking", //project name
+    "app_name": "notetaking",
     "models": [
         { "Notes":	["message(TextField[max_length=300])",
                     "time_created(DateTimeField[auto_now=True])"]},
